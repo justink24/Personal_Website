@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-column img {
+    max-width: 100%;
+    margin-bottom: 20%;
+}
+
+.right-column {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.text-block {
+    margin-bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.selected-page-a {
+    text-decoration: none;
+    color: RGB(116, 152, 190);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+
+.profile-section {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bio-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.bio-section {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio-text {
+    font-size: 16px;
+}
+
+.resume-header {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume-link {
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ai-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.ai-content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ai-benefit-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.ai-benefit-description {
+    font-size: 16px;
+    color: #555;
+}
+
+.ai-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.ai-prompts {
+    font-size: 14px;
+    color: #888;
+}
+
+.selected-page-li {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    pointer-events: none;
+    box-shadow: black;
+}
