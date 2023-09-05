@@ -63,6 +63,13 @@ nav a {
     font-size: 18px;
 }
 
+.selected-page-a {
+    text-decoration: none;
+    color: RGB(116, 152, 190);
+    font-weight: bold;
+    font-size: 18px;
+}
+
 p {
     font-size: 18px;
     line-height: 1.6;
@@ -150,4 +157,12 @@ p {
 .ai-prompts {
     font-size: 14px;
     color: #888;
+}
+
+.selected-page-li {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    pointer-events: none;
+    box-shadow: black;
 }
